@@ -38,3 +38,11 @@ Thumbs.db
 
 *.iml
 .idea
+
+.classpath
+.project
+.settings/
+.metadata/
+target/
+*/target/*
+*/target/**
