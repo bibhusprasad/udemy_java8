@@ -2,7 +2,7 @@ package ex04.references;
 
 import java.util.function.Function;
 
-public class FunctionMethodReferenceExample {
+public class $02_FunctionMethodReferenceExample {
 
     static Function<String, String> function = string -> string.toUpperCase();
     static Function<String, String> function1 = String :: toUpperCase;

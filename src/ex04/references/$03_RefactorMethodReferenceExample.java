@@ -5,9 +5,9 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.function.Predicate;
 
-public class RefactorMethodReferenceExample {
+public class $03_RefactorMethodReferenceExample {
 
-    static Predicate<Student> p = RefactorMethodReferenceExample::greaterThanGradeLevel;
+    static Predicate<Student> p = $03_RefactorMethodReferenceExample::greaterThanGradeLevel;
 
     public static boolean greaterThanGradeLevel(Student student){
         return student.getGradeLevel() > 3;

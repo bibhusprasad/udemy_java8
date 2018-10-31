@@ -2,7 +2,7 @@ package ex07.streamOperations;
 
 import ex00.studentdata.StudentDatabase;
 
-public class StreamMatchExample {
+public class $11_StreamMatchExample {
 
     public static boolean allMatch(){
         return StudentDatabase.getAllStudentDetails().stream()

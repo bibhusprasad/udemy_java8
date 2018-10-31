@@ -6,7 +6,7 @@ import ex00.studentdata.StudentDatabase;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StreamFlatMapExample {
+public class $02_StreamFlatMapExample {
 
     static List<String> printListActivities(){
         return StudentDatabase.getAllStudentDetails().stream() //Stream<Student>

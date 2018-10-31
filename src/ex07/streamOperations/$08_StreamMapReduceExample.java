@@ -3,7 +3,7 @@ package ex07.streamOperations;
 import ex00.studentdata.Student;
 import ex00.studentdata.StudentDatabase;
 
-public class StreamMapReduceExample {
+public class $08_StreamMapReduceExample {
 
     public static int noOfNoteBook(){
         return StudentDatabase.getAllStudentDetails().stream()

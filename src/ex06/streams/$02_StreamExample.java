@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class StreamExample {
+public class $02_StreamExample {
 
     public static void main(String[] args) {
 

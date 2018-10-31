@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class StreamMapExample {
+public class $01_StreamMapExample {
 
     static List<String> namesList(){
         return StudentDatabase.getAllStudentDetails().stream() //op is Stream<Student>

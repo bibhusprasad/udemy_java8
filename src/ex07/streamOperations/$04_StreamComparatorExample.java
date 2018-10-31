@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StreamComparatorExample {
+public class $04_StreamComparatorExample {
 
     static Comparator<Student> c = Comparator.comparing(Student::getName);
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class StreamLimitSkipExample {
+public class $10_StreamLimitSkipExample {
 
     public static Optional<Integer> limit(List<Integer> integerList){
         return integerList.stream()

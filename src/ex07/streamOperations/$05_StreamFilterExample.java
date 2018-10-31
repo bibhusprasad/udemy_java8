@@ -6,7 +6,7 @@ import ex00.studentdata.StudentDatabase;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StreamFilterExample {
+public class $05_StreamFilterExample {
 
     public static List<Student> filterStudents(){
         return StudentDatabase.getAllStudentDetails().stream()

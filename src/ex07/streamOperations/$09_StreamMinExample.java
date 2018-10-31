@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class StreamMinExample {
+public class $09_StreamMinExample {
 
     static int findMinValue(List<Integer> integerList){
         return integerList.stream()

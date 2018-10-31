@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class CollectionsVsStream {
+public class $01_CollectionsVsStream {
 
     public static void main(String[] args) {
 
@@ -44,7 +44,7 @@ public class CollectionsVsStream {
         Exception in thread "main" java.lang.IllegalStateException: stream has already been operated upon or closed
             at java.util.stream.AbstractPipeline.sourceStageSpliterator(AbstractPipeline.java:279)
             at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
-            at ex06.streams.CollectionsVsStream.main(CollectionsVsStream.java:30)
+            at ex06.streams.$01_CollectionsVsStream.main($01_CollectionsVsStream.java:30)
         jim
         jenny
          */

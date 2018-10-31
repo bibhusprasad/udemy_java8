@@ -5,7 +5,7 @@ import ex00.studentdata.Student;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-public class ConstructorReferenceExample {
+public class $04_ConstructorReferenceExample {
 
     static Supplier<Student> supplier = Student::new;
 

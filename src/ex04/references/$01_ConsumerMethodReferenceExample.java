@@ -6,7 +6,7 @@ import ex00.studentdata.StudentDatabase;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ConsumerMethodReferenceExample {
+public class $01_ConsumerMethodReferenceExample {
 
     static Consumer<Student> c1 = student -> System.out.println(student);
     static Consumer<Student> c2 = System.out::println;

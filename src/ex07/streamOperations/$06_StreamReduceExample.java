@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class StreamReduceExample {
+public class $06_StreamReduceExample {
 
     public static Optional<Double> getTotalGpa(){
         return StudentDatabase.getAllStudentDetails().stream()
@@ -51,7 +51,7 @@ public class StreamReduceExample {
         /*
         Exception in thread "main" java.util.NoSuchElementException: No value present
         at java.util.Optional.get(Optional.java:135)
-        at ex07.streamOperations.StreamReduceExample.main(StreamReduceExample.java:50)
+        at ex07.streamOperations.$06_StreamReduceExample.main($06_StreamReduceExample.java:50)
          */
         if(performMultipicationWithoutIdentity(emptyIntegerList).isPresent()){
             System.out.println(performMultipicationWithoutIdentity(emptyIntegerList).get());

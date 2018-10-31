@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-public class StreamOfGenerateIterateExample {
+public class $01_StreamOfGenerateIterateExample {
 
     public static void main(String[] args) {
         Stream<String> names = Stream.of("adam", "den", "julie");

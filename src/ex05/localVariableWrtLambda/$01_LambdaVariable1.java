@@ -2,7 +2,7 @@ package ex05.localVariableWrtLambda;
 
 import java.util.function.Consumer;
 
-public class LambdaVariable1 {
+public class $01_LambdaVariable1 {
 
     public static void main(String[] args) {
         int i = 0;

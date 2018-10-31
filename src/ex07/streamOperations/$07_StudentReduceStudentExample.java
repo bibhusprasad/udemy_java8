@@ -5,7 +5,7 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.Optional;
 
-public class StudentReduceStudentExample {
+public class $07_StudentReduceStudentExample {
 
     public static Optional<Double> getTotalGpa(){
         return StudentDatabase.getAllStudentDetails().stream()

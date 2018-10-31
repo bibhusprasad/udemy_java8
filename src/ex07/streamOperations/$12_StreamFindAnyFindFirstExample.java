@@ -5,7 +5,7 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.Optional;
 
-public class StreamFindAnyFindFirstExample {
+public class $12_StreamFindAnyFindFirstExample {
 
     public static Optional<Student> findAny(){
         return StudentDatabase.getAllStudentDetails().stream()
