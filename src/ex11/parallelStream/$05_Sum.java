@@ -1,6 +1,6 @@
 package ex11.parallelStream;
 
-public class Sum {
+public class $05_Sum {
 
     private int total;
 

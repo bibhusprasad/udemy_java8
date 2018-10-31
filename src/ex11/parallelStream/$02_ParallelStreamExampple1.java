@@ -6,7 +6,7 @@ import ex00.studentdata.StudentDatabase;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ParallelStreamExampple1 {
+public class $02_ParallelStreamExampple1 {
 
 
 

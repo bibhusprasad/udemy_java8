@@ -18,7 +18,7 @@ public class ImperativeVsDeclarativeExample1 {
         for(int i = 1 ; i <= 100 ; i++){
             sum = sum + i;
         }
-        System.out.println("Sum is : "+ sum); //OP: Sum is : 5050
+        System.out.println("$05_Sum is : "+ sum); //OP: $05_Sum is : 5050
 
         /*
          *  Declarative way

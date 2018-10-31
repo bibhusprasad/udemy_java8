@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class NumericExampleMapToExample {
+public class $05_NumericExampleMapToExample {
 
     public static List<Integer> mapToObject(){
         return IntStream.rangeClosed(1,5)

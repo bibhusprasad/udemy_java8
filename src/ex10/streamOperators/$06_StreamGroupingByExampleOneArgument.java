@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class StreamGroupingByExampleOneArgument {
+public class $06_StreamGroupingByExampleOneArgument {
 
 
     public static Map<String, List<Student>> groupByGender(){

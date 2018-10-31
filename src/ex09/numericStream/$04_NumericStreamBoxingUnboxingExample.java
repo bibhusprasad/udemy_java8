@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class NumericStreamBoxingUnboxingExample {
+public class $04_NumericStreamBoxingUnboxingExample {
 
     public static List<Integer> boxing(){
         return IntStream.rangeClosed(1, 10)

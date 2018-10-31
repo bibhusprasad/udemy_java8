@@ -6,7 +6,7 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.Optional;
 
-public class OptinalMapFlatMapFilterExample {
+public class $05_OptinalMapFlatMapFilterExample {
 
     //filter
     public static void optionalFilter(){

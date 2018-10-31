@@ -5,7 +5,7 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.Optional;
 
-public class OptionalExample {
+public class $01_OptionalExample {
 
     static String getStudentName(){
         //Student student = StudentDatabase.stdSupplier.get(); //OP: Name is : Adam

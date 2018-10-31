@@ -2,7 +2,7 @@ package ex12.optional;
 
 import java.util.Optional;
 
-public class OptionalOfEmptyNullableExample {
+public class $02_OptionalOfEmptyNullableExample {
 
     public static Optional<String> ofNullale(){
         //return Optional.ofNullable("Hello"); //OP: ofNullable : Optional[Hello]

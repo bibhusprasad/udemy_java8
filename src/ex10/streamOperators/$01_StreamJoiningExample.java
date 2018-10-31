@@ -5,7 +5,7 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.stream.Collectors;
 
-public class StreamJoiningExample {
+public class $01_StreamJoiningExample {
 
     public static String joiningOne(){
         return StudentDatabase.getAllStudentDetails().stream()

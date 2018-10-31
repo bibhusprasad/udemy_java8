@@ -4,7 +4,7 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.stream.Collectors;
 
-public class StreamCountingExample {
+public class $02_StreamCountingExample {
 
     public static long count(){
         return StudentDatabase.getAllStudentDetails().stream()

@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-public class NumericStreamRangeExample {
+public class $02_NumericStreamRangeExample {
 
     public static void main(String[] args) {
 

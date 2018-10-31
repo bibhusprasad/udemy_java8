@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class StreamGrouplyByMinMaxAndThenExample {
+public class $09_StreamGrouplyByMinMaxAndThenExample {
 
     public static Map<Integer, Optional<Student>> calculateToGpa(){
         return StudentDatabase.getAllStudentDetails().stream()

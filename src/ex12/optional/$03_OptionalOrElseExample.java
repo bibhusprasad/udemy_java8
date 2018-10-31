@@ -5,7 +5,7 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.Optional;
 
-public class OptionalOrElseExample {
+public class $03_OptionalOrElseExample {
 
     public  static String orElse(){
         //Optional<Student> student = Optional.ofNullable(StudentDatabase.stdSupplier.get()); //OP: orElse : Adam

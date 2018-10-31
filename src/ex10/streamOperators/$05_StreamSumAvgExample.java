@@ -5,7 +5,7 @@ import ex00.studentdata.StudentDatabase;
 
 import java.util.stream.Collectors;
 
-public class StreamSumAvgExample {
+public class $05_StreamSumAvgExample {
 
     public static int sum(){
         return StudentDatabase.getAllStudentDetails().stream()

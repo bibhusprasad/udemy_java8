@@ -2,7 +2,7 @@ package ex11.parallelStream;
 
 import java.util.stream.IntStream;
 
-public class ParallelStreamExample {
+public class $01_ParallelStreamExample {
 
     static int sumSequentialStream(){
         return IntStream.rangeClosed(1, 100)

@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class ParallelStreamMustExample {
+public class $03_ParallelStreamMustExample {
 
     public static int sequentialSum(List<Integer> integerList){
         long startTime = System.currentTimeMillis();

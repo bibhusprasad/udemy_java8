@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class StreamGroupingByExampleTwoArgument {
+public class $07_StreamGroupingByExampleTwoArgument {
     public static Map<Integer, Map<String, List<Student>>> twoLevelGrouping_1(){
         Map<Integer, Map<String, List<Student>>> studentMap = StudentDatabase.getAllStudentDetails().stream()
                 .collect(Collectors.groupingBy(Student::getGradeLevel,

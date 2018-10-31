@@ -3,7 +3,7 @@ package ex11.parallelStream;
 import java.util.function.Supplier;
 import java.util.stream.IntStream;
 
-public class ParallelStreamPerformanceExample {
+public class $04_ParallelStreamPerformanceExample {
 
     static long checkPerformance(Supplier<Integer> supplier, int noOfTimes){
         long startTime = System.currentTimeMillis();
@@ -26,8 +26,8 @@ public class ParallelStreamPerformanceExample {
     }
 
     public static void main(String[] args) {
-        System.out.println("sequential : "+checkPerformance(ParallelStreamPerformanceExample::sumSequentialStream, 20));
-        System.out.println("parallel : "+checkPerformance(ParallelStreamPerformanceExample::sumParallelStream, 20));
+        System.out.println("sequential : "+checkPerformance($04_ParallelStreamPerformanceExample::sumSequentialStream, 20));
+        System.out.println("parallel : "+checkPerformance($04_ParallelStreamPerformanceExample::sumParallelStream, 20));
         //OP:
         /*
         sequential : 36

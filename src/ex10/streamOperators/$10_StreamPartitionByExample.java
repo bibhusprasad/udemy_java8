@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class StreamPartitionByExample {
+public class $10_StreamPartitionByExample {
 
     public static Map<Boolean, List<Student>> partitionBy_1(){
         return StudentDatabase.getAllStudentDetails().stream()
