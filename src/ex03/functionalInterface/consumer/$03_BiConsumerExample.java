@@ -6,7 +6,7 @@ import ex00.studentdata.StudentDatabase;
 import java.util.List;
 import java.util.function.BiConsumer;
 
-public class BiConsumerExample {
+public class $03_BiConsumerExample {
 
     static void printNameAndActivity(){
         BiConsumer<String, List<String>> biConsumer = (s, strings) -> System.out.println(s + strings);

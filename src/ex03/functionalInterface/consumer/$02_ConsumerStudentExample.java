@@ -6,7 +6,7 @@ import ex00.studentdata.StudentDatabase;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ConsumerStudentExample {
+public class $02_ConsumerStudentExample {
 
     static Consumer<Student> c1 = student -> System.out.println(student);
     static Consumer<Student> c2 = student -> System.out.print(student.getName());

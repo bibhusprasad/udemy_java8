@@ -2,7 +2,7 @@ package ex03.functionalInterface.function;
 
 import java.util.function.Function;
 
-public class FunctionExample {
+public class $01_FunctionExample {
 
     static Function<String, String> function = s1 -> s1.toUpperCase();
     static Function<String, String> addSome = s1 -> s1.toUpperCase().concat(" java8");

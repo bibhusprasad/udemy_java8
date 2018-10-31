@@ -2,7 +2,7 @@ package ex03.functionalInterface.predicate;
 
 import java.util.function.Predicate;
 
-public class PredicateExample {
+public class $01_PredicateExample {
 
     static Predicate<Integer> p1 = number -> number % 2 == 0;
     static Predicate<Integer> p2 = number -> number % 5 == 0;

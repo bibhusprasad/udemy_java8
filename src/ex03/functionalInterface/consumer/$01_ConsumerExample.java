@@ -7,7 +7,7 @@ import java.util.function.Consumer;
  * Upper Case Operation
  * Print the new String
  */
-public class ConsumerExample {
+public class $01_ConsumerExample {
 
     public static void main(String[] args) {
         Consumer<String> consumer = (s) -> System.out.println(s.toUpperCase());

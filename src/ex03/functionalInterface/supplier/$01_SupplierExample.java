@@ -6,11 +6,10 @@ import ex00.studentdata.StudentDatabase;
 import java.util.List;
 import java.util.function.Supplier;
 
-public class SupplierExample {
+public class $01_SupplierExample {
 
     static Supplier<Double> supplier = () -> Math.random();
     static Supplier<List<Student>> stdList = () -> StudentDatabase.getAllStudentDetails();
-
 
     public static void main(String[] args) {
         System.out.println(supplier.get());
